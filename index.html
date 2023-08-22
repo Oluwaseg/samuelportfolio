@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samuel Oluwasegun</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script>
+    function error() {
+      alert("Try Again Later")
+    }
+  </script>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-center">
+      <!-- nav header -->
+      <div class="nav-header">
+        <label class="animate__animated animate__rollIn" id="logo">Samuel <span>Oluwasegun</span></label>
+        <button class="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <!-- links -->
+      <ul class="links">
+        <li>
+          <a href="index.html">home</a>
+        </li>
+        <li>
+          <a href="about.html">about</a>
+        </li>
+        <li>
+          <a href="#" onclick="error()">projects</a>
+        </li>
+        <li id="contactButton">
+          <a href="javascript: void(0);">contact</a>
+        </li>
+        <li>
+          <a href="" id="contactButton">services</a>
+        </li>
+      </ul>
+      <!-- social media -->
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.twitter.com">
+            <i class='bx bxl-facebook-circle bx-flashing'></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class='bx bxl-twitter bx-fade-up'></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class='bx bxl-slack bx-tada'></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class='bx bxl-linkedin-square bx-tada'></i></a>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <a href=""><i class='bx bxl-discord-alt bx-tada'></i></a>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <a href=""><i class='bx bxl-github bx-tada bx-flip-horizontal'></i></a>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contact Popup -->
+
+  <div id="contactPopup">
+    <div class="popup-content">
+      <span class="close-button" onclick="closePopup()">&times;</span>
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message">
+      </form>
+    </div>
+  </div>
+
+  <!-- Section One -->
+
+  <section class="about">
+    <div class="main">
+      <img src="./samuel.png" alt="picture of me" class="img-me">
+      <div class="all-text">
+        <h1>Hi, I'm Samuel OLuwasegun</h1>
+        <h3>Front-end Developer</h3>
+        <p>In a world of endless possibilities, [Samuel Oluwasegun] holds a diploma in computer engineering and an
+          insatiable love for learning and coding. My goal is: to build a project that benefits the world and shapes a
+          brighter future. Driven by compassion and resilience, they seek to bridge the gap between technology and
+          humanity, leaving a lasting impact on countless lives. The world eagerly awaits the unveiling of their
+          masterpiece, a testament to the power of passion and knowledge.</p>
+        <div class="btn">
+          <button type="button"><a onclick="location.href='mailto:samueloluwasegun999@gmail.com'" class="myButton">Hire
+              me</a></button>
+          <button type="button"><a href='#'>Download CV</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <h3>Samuel Oluwasegun</h3>
+      <p>You can find me on any of these icon below.</p>
+      <ul class="social-icons-footer">
+        <li>
+          <a href="https://www.twitter.com">
+            <i class='bx bxl-facebook-circle bx-flashing'></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class='bx bxl-twitter bx-fade-up'></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class='bx bxl-slack bx-tada'></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class='bx bxl-linkedin-square bx-tada'></i></a>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <a href=""><i class='bx bxl-discord-alt bx-tada'></i></a>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <a href=""><i class='bx bxl-github bx-tada bx-flip-horizontal'></i></a>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- <div class="footer-bottom">
+          <p>Designed By - <a href="">Itadori</a></p>
+        </div> -->
+  </footer>
+  <!-- javascript -->
+  <script src="app.js"></script>
+</body>
+
+</html>
